@@ -1,0 +1,6 @@
+[submodule "multi_jackal_simulator"]
+	path = multi_jackal_simulator
+	url = git@github.com:NilsKompe/multi_jackal_simulator.git
+[submodule "marker_localization"]
+	path = marker_localization
+	url = git@github.com:NilsKompe/marker_localization.git
