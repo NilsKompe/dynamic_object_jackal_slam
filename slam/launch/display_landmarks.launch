@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+
+<launch>
+  <!-- View in RVIZ. -->
+    <node name="rviz_landmarks" pkg="slam" type="rviz_landmarks.py">
+    </node>
+
+</launch>

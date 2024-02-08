@@ -7,3 +7,6 @@
 [submodule "gazebo_models"]
 	path = gazebo_models
 	url = git@github.com:NilsKompe/gazebo_models.git
+[submodule "slam/src/mrekf_slam"]
+	path = slam/src/mrekf_slam
+	url = git@github.com:NilsKompe/mrekf_slam.git
