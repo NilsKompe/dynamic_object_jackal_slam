@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+
+<launch>
+   
+    <arg name="direction" default="x-"/>
+    <arg name="datasize" default="50"/>
+
+    <node name="collect_sensor_data" pkg="slam" type="collect_sensor_data.py" output="screen">
+        <param name="datasize" value="$(arg datasize)"/>
+        
+    </node>
+
+    <node name="collect_gazebo_poses" pkg="slam" type="collect_gazebo_poses.py" output="screen">
+        <param name="datasize" value="$(arg datasize)"/>
+        <param name="direction" value="$(arg direction)"/>
+    </node>
+
+</launch>
