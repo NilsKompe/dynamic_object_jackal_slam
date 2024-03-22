@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+
+<launch>
+  
+    <node name="publish_twist" pkg="slam" type="publish_twist.py">
+    </node>
+
+    <node name="add_header" pkg="slam" type="add_header_to_twist.py">
+    </node>
+    <!-- <node name="collect_corresponding_odom" pkg="slam" type="collect_corresponding_odom.py">
+    </node> -->
+
+</launch>

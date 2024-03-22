@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+
+<launch>
+   
+    <node name="slam" pkg="slam" type="slam.py" output="screen">        
+    </node>
+
+</launch>
